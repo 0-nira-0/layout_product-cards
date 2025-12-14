@@ -67,16 +67,16 @@
     background-color: #fff;
     color: #00acdc;
   }
-}
 
-.review {
-  margin-top: 16px;
-  display: flex;
-  justify-content: space-between;
+  &__review {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
 
-  &__amount {
-    color: #060b35;
-    line-height: 14px;
-    align-self: flex-end;
+    &-amount {
+      color: #060b35;
+      line-height: 14px;
+      align-self: flex-end;
+    }
   }
 }
